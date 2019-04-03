@@ -1,0 +1,253 @@
+body,p,dl,dd,ul,ol,li,div,h1,h2,h3,h4,h5,h6,form,input,table,tr,td{
+	margin:0;
+	padding:0;
+}
+body{
+    font-family: 'Source Sans Pro', 'Lucida Grande',sans-serif ;
+    font-weight: 400;
+    color:#000;
+    font-size: 16px;
+}
+ul,ol{
+	list-style:none;
+}
+img{
+	border: 0;
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+a:hover{
+    text-decoration: none;
+    color:#ccc;
+}
+/* bar */
+.bar{
+    width: 100%;
+    border-width: 3px 0 0;
+    border-top-style: solid;
+    -o-border-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff) 3;
+    border-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff) 3;
+    
+}
+/* nav */
+.nav{
+   height: 53px;
+   line-height: 53px;
+   text-align: center;
+   overflow: hidden;
+   padding-left:12px;
+}
+
+.nav li{
+    float: left;
+    margin: 0 12px;
+}
+/* search */
+.search{
+    width: 100%;
+    /* height: 60px; */
+    padding: 9px 0;
+    display:flex;
+    border:1px solid #ccc;
+}
+.search_in{
+    height: 40px;
+}
+.font_sear{
+    position: absolute;
+    top:7px;
+    left:15px;
+    font-size: 20px!important;
+    line-height: 30px;
+    z-index: 2;
+}
+.search_img{
+    width:120px ;
+    height: 40px;
+    padding:0 30px;
+}
+.ser-img{
+    width: 100%;
+    height: 90%;
+}
+.search_pre{
+    height: 40px;
+    flex:1;
+    position: relative;
+    text-align: center; 
+    display: flex;
+}
+.input_in{
+    border:none;
+    background:#f2f2f2 ;
+    flex:1;
+    text-indent: 30px;
+    outline: none;
+    margin-left: 10px;
+}
+.input_sear{
+    border:none;
+    background: #fb3e44;
+    color: #fff;
+    outline: none;
+    width: 83px;
+}
+.reg_login{
+    padding-left: 40px;
+    width: 190px;
+    height: 40px;
+    float: right;
+}
+.join{
+    line-height: 40px;
+    border:1px solid #9a9a9a;
+    padding:0 10px;
+    margin:0 10px;
+    text-align: center;
+}
+.login{
+    text-align: center;
+    padding:0px;
+}
+/* products */
+.products{
+    background: #f2f2f2;
+    padding-bottom: 5%;
+}
+.products_tit{
+    font-size: 50px;
+    font-weight: 600;
+    padding: 5% 0;
+}
+.product_event{
+    padding:0 1%;
+}
+.product_cont{
+    background: #fff;
+    padding:0;
+    padding-bottom: 7%;
+    box-shadow: 0px 0px 15px 2px #ccc;
+}
+.product_top{
+    background-color: #865319;
+    padding:8%;
+}
+.product_tit_small{
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+    padding:5% 0;
+}
+.des{
+    padding-top:10%;
+    font-size: 20px;
+}
+.product_bottom{
+    padding: 0 8%;
+}
+.source{
+   font-size: 16px;
+    padding-top: 10%;
+    padding-bottom:10%;
+    line-height: 1.5;
+    border-bottom:1px solid #ccc; 
+}
+.product_b_tit{
+    font-size: 20px;
+    padding-top: 20%;
+    padding-bottom:10%;
+    border-bottom:1px solid #ccc;
+}
+.source_tit{
+    font-weight: 600;
+}
+.lists{
+    /* min-height: 600px; */
+    padding-bottom: 10%;
+}
+.source_list{
+    padding:10% 0;
+    border-bottom:1px solid #ccc;
+    list-style: disc;
+    list-style-position: inside;
+}
+.source_list li{
+    font-size: 16px;
+    line-height: 2.0;
+    
+}
+.s_btn{
+    margin-bottom: 4%;
+    height: 58px;
+    background: #865319;
+    box-shadow: 8px 8px 0 rgba(134, 83, 25, .2);
+    text-align: center
+}
+.s_btn a{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 58px;
+}
+/* footer */
+.pro_eve{
+    border-top:1px solid #ccc;
+    padding-top:10%;
+    padding-bottom:10%;
+}
+.pro_logoc{
+    margin-left: 1%;
+    margin-right: 2%;
+}
+.pro_logo{
+    font-size: 50px;
+    color:#cccccc;
+    line-height: 50px;
+}
+.free_event{
+    margin-right:4.5%;
+}
+.project_tit{
+    font-size: 14px;
+    color:#fb3e44;
+    padding-bottom: 26px;
+    font-weight: 600;
+}
+.pro_list li{
+    padding-top:20px;
+}
+.pro_list li a{
+    font-size:14px;
+    color:#4c4c4c;
+}
+.bar2{
+    margin:0;
+    padding:0;
+    width: 100%;
+    border-width: 10px 0 0;
+    border-top-style: solid;
+    -o-border-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff) 3;
+    border-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff) 3;
+    
+}
+@media screen and ( max-width: 990px){
+    .product_event{
+        padding:5% 5% 0;
+    }
+    .product_top{
+        padding:0 5%;
+    }
+    .des{
+        padding-top:5%;
+    }
+    .product_b_tit {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .source {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+}
