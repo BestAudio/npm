@@ -117,20 +117,23 @@ a:hover{
     padding:128px 0;
 }
 .learn{
-    padding-bottom:54px;
+    padding-bottom:2%;
 }
 .learn_tit{
-    font-size: 24px;
+    font-size:50px;
+    font-weight: 600;
     color:#f1c131;
     text-align: center;
 }
 .learn_desc{
-    font-size: 16px;
-    line-height: 1.5p;
+    font-size: 20px;
+    line-height: 2;
     color:#f1c131;
-    padding:32px 0;
+    padding: 0;
+    padding-bottom:6%;
     text-align: center;
-    ,l
+    letter-spacing: 1px;
+    word-spacing: 3px;
 }
 .plan{
     height: 64px;
@@ -209,7 +212,7 @@ a:hover{
     background: -webkit-linear-gradient(top,rgba(181,191,196,.3) 0,#fff 14%);
 }
 .sale{
-    background:#662D91;
+    background:rgba(102,45,145,.6);
     padding: 5%;
 }
 .sales_con{
