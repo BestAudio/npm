@@ -1,0 +1,41 @@
+/* footer */
+.pro_eve{
+    border-top:1px solid #ccc;
+    padding-top:10%;
+    padding-bottom:10%;
+}
+.pro_logoc{
+    margin-left: 1%;
+    margin-right: 2%;
+}
+.pro_logo{
+    font-size: 50px;
+    color:#cccccc;
+    line-height: 50px;
+}
+.free_event{
+    margin-right:4.5%;
+}
+.project_tit{
+    font-size: 14px;
+    color:#fb3e44;
+    padding-bottom: 26px;
+    font-weight: 600;
+}
+.pro_list li{
+    padding-top:20px;
+}
+.pro_list li a{
+    font-size:14px;
+    color:#4c4c4c;
+}
+.bar2{
+    margin:0;
+    padding:0;
+    width: 100%;
+    border-width: 10px 0 0;
+    border-top-style: solid;
+    -o-border-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff) 3;
+    border-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff) 3;
+    
+}

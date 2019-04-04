@@ -1,0 +1,131 @@
+body,p,dl,dd,ul,ol,li,div,h1,h2,h3,h4,h5,h6,form,input,table,tr,td{
+	margin:0;
+	padding:0;
+}
+body{
+    font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+    font-weight: 400;
+    color:#000;
+    font-size: 16px;
+    background: #f7f7f7;
+}
+ul,ol{
+	list-style:none;
+}
+img{
+	border: 0;
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+.sign{
+    padding: 5% 0;
+    margin:0 auto;
+    width: 480px;
+}
+.logo{
+    margin-bottom: 8%;
+    text-align: center;
+}
+.center-block{
+    width: 30%;
+    height: 30%;
+}
+.sign_up{
+    height: 945px;
+    padding:40px;
+    background: #fff;
+    border-radius: 10px;
+    border:2px solid rgba(0,0,0,.1);
+}
+.sign_up_tit{
+    font-size: 20px;
+    color:rgba(0,0,0,.7);
+    padding:4% 0;
+    border-bottom: 1px solid #ccc;
+}
+.input_name{
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+    margin:4% 0;
+}
+.input_style{
+    width: 100%;
+    font-size: 16px;
+    text-indent: 5px;
+    color: rgba(0,0,0,.7);
+    height: 38px;
+    border-radius: 5px;
+    border:1px solid rgba(0,0,0,.2);
+    outline:none;
+}
+.require{
+    margin-top: 8%;
+}
+.req_list{
+    margin-top:5%;
+    padding-left: 10%;
+}
+.req_list li{
+    line-height: 1.8;
+    color:rgba(0,0,0,.7);
+    font-size: 14px;
+    list-style-type: disc;
+}
+.mark{
+    font-weight: 600;
+}
+.mark_unber{
+    text-decoration: underline;
+}
+.check_info{
+    margin-top:8%; 
+    border:none;
+    border-radius: 5px;
+    color:rgba(0,0,0,.6);
+    background: rgba(0,0,0,.04);
+}
+.check_mes{
+    padding:3% 0;
+    font-size: 14px;
+}
+.agreement{
+    color: #357edd;
+    text-decoration: underline;
+}
+#login_submit{
+    width: 100%;
+    height: 38px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin:8% 0;
+    border:none;
+    outline: none;
+    background-color: #fff;
+    background-image: linear-gradient(-180deg, rgba(255, 255, 255, .09) 0%, rgba(17, 17, 17, .04) 100%);
+    border: 1px solid rgba(22, 22, 22, .20);
+    color: #444;
+}
+#login_submit:hover{
+    background-image: linear-gradient(-180deg, rgba(255, 255, 255, .09) 0%, rgba(17, 17, 17, .1) 100%);
+}
+.login{
+    width: 100%; 
+    text-align: center;
+}
+.login a{
+    text-decoration: underline;
+    color: rgba(0,0,0,.6);
+}
+.login a:hover{
+    color: rgba(0,0,0,1);
+}
+
+@media screen and (max-width:560px){
+    .sign{
+        width: 100%;
+        min-width: 404px;
+    }
+}
