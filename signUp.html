@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>npm</title>
+    <link rel="stylesheet" href="css/signUp.css">
+    <link rel="shortcut icon" href="img/index/ico.png"/>
+</head>
+<body>
+    <div class="sign">
+        <div class="logo">
+            <img src="img/index/logo.png" class="center-block" alt="">
+        </div>
+        <div class="sign_up">
+            <h3 class="sign_up_tit">Sign Up</h3>
+            <form action="" method="POST">
+                <label class="input_name" for="fullname">Full Name</label>
+                <input type="text" id="fullname" class="input_style">
+
+                <label class="input_name" for="useremail">Public Email</label>
+                <input type="email" id="useremail" class="input_style">
+
+                <label class="input_name" for="username">Username</label>
+                <input type="text" id="username" class="input_style">
+
+                <label class="input_name" for="password">Password</label>
+                <input type="password" id="password" class="input_style">
+                <div class="require">
+                    <p>In order to <span class="mark">protect your account</span> , make sure your password:</p>
+                    <ul class="req_list">
+                        <li>Is longer than 7 characters</li>
+                        <li>Does not match or significantly contain your username, e.g. do not use 'username123'.</li>
+                        <li>Is not a member of this <a  class="mark mark_unber" href="">list of common passwords</a> </li>
+                        <li>Is not a member of the <a  class="mark mark_unber" href="">Have I Been Pwned</a>breach database</li>
+                    </ul>
+                </div>
+                <fieldset class="check_info">
+                    <div class="check_mes">
+                        <input type="checkbox" id="weekly">
+                        <label class="" for="weekly">
+                            Sign up for the npm Weekly
+                        </label>
+                    </div>
+                    <div class="check_mes">
+                        <input type="checkbox" id="weekly">
+                        <label class="" for="weekly">
+                                Agree to the 
+                                <a class="agreement" href="">End User License Agreement</a>
+                                and the 
+                                <a class="agreement" href="">Privacy Policy</a>
+                        </label>
+                    </div>
+                </fieldset>
+                <input id="login_submit" type="submit" value="Create an Account">
+            </form>
+            <div class="login">
+                <a href="login.html">or, Login</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
